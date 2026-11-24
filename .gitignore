@@ -20,6 +20,7 @@ dist/
 # Backups & Local User Device Data
 backups/*.json
 !backups/.gitkeep
+device_scan_report.json
 
 # OS generated files
 Thumbs.db
