@@ -21,6 +21,7 @@ dist/
 backups/*.json
 !backups/.gitkeep
 device_scan_report.json
+app_analysis_report.json
 
 # OS generated files
 Thumbs.db
