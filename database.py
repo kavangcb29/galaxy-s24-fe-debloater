@@ -377,10 +377,10 @@ PACKAGES: List[Dict[str, Any]] = [
     },
     {
         "id": "com.linkedin.android",
-        "name": "LinkedIn App Stub",
+        "name": "LinkedIn App",
         "category": "microsoft",
-        "risk": "safe",
-        "description": "Preloaded LinkedIn application stub."
+        "risk": "optional",
+        "description": "LinkedIn professional network application (Preserved and excluded from debloat presets)."
     },
 
     # ==========================================
@@ -611,6 +611,13 @@ PACKAGES: List[Dict[str, Any]] = [
         "category": "galaxy_ai",
         "risk": "danger",
         "description": "Offline language recognition models for Galaxy AI on-device processing. DO NOT REMOVE."
+    },
+    {
+        "id": "com.samsung.android.callassistant",
+        "name": "Samsung Call Assistant (AI CALL SCREENING & TEXT CALL)",
+        "category": "galaxy_ai",
+        "risk": "danger",
+        "description": "CRITICAL AI CALLING! Powers Bixby Text Call, Automatic Speech-to-Text & Live AI Call Screening. DO NOT REMOVE."
     },
 
     # =========================================================================
